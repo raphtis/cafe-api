@@ -1,0 +1,31 @@
+{
+  "cafes": [
+    {
+      "id": 0,
+      "name": "Portage Grounds",
+      "location": "5501 W Irving Park Rd, Chicago, IL 60641",
+      "phone": "17739303693",
+      "hours": "7AM - 3PM",
+      "website": "https://www.instagram.com/portagegroundscoffee/",
+      "food": "Pastries"
+    },
+    {
+      "id": 1,
+      "name": "Brew Brew Coffee & Tea",
+      "location": "5501 W Irving Park Rd, Chicago, IL 60641",
+      "phone": "17736879498",
+      "hours": "M-F 7AM - 2PM, Sat/Sun 8AM-2PM",
+      "website": "brewbrewcoffeeandtea.com",
+      "food": "Pastries and tortas"
+    },
+    {
+      "id": 2,
+      "name": "Cafe Urbano",
+      "location": "4176 N Elston Ave, Chicago, IL 60618",
+      "phone": "17734781000",
+      "hours": "M-Sat 6:30AM - 6:30PM, Sun 7AM-4PM",
+      "website": "https://www.instagram.com/cafeurbano773/",
+      "food": "Pastries and sandwiches"
+    }
+  ]
+}
