@@ -1,15 +1,16 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
+const express = require('express');;
+const app = express();
+const importData = require('./db.json');
 const port = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+  res.send('Chicago coffee api');
+});
 
+app.get('/cafes', (req, res) => {
+  res.send(importData)
+})
 
-server.use(middlewares);
-server.use(router);
-
-
-server.listen(port, () => {
-  console.log(`Cafe API running on port ${port}`)
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`)
 })
